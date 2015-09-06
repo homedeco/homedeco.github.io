@@ -87,7 +87,7 @@
   </header>
 
   <!-- Services Section -->
-  <section id="services" class="services">
+  <section id="services" class="services paddingproper">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -125,7 +125,7 @@
   </section>
 
   <!-- Portfolio Grid Section -->
-  <section id="portfolio" class="bg-light-gray">
+  <section id="portfolio" class="bg-light-gray paddingproper">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -142,7 +142,7 @@
                 <i class="fa fa-expand fa-3x"></i>
               </div>
             </div>
-            <img src="img/portfolio/kitchenfull.jpg" class="img-responsive" alt="">
+            <img src="img/portfolio/kitchenfull.jpg" class="img-responsive portimgs" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Hardwood & Kitchen Overhaul</h4>
@@ -157,7 +157,7 @@
                 <i class="fa fa-expand fa-3x"></i>
               </div>
             </div>
-            <img src="img/portfolio/tiling.jpg" class="img-responsive" alt="">
+            <img src="img/portfolio/tiling.jpg" class="img-responsive portimgs" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Bathroom Renovation</h4>
@@ -174,7 +174,7 @@
               </div>
 
             </div>
-            <img src="img/portfolio/deckbackyard.jpg" class="img-responsive" alt="">
+            <img src="img/portfolio/deckbackyard.jpg" class="img-responsive portimgs" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Patio Installation</h4>
@@ -189,44 +189,43 @@
 
 
   <!-- Contact Section -->
-    <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Contact Us</h2>
-          <br>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-
-          <form name="sentMessage" action="//formspree.io/van.stay@hotmail.com" method="POST">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name *" name="name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email *" name="replyto">
-                </div>
-                <div class="form-group">
-                  <input type="phone" class="form-control" placeholder="Your Number *"name="phone">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" placeholder="Tell us about your project! *" name="message"></textarea>
-                </div>
-              </div>
-              <div class="col-md-12 text-center">
-                <button type="submit" value="Send" class="btn btn-xl">Send Message</button>
-              </div>
-          </form>
+    <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Contact Us</h2>
+              <br>
+            </div>
           </div>
-        </div>
-      </div>
-  </section>
+          <div class="row">
+            <div class="col-lg-12">
+
+              <form name="sentMessage" action="//formspree.io/van.stay@hotmail.com" method="POST">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name *" name="name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Email *" name="replyto">
+                    </div>
+                    <div class="form-group">
+                      <input type="phone" class="form-control" placeholder="Your Number *"name="phone">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <textarea class="form-control" placeholder="How can we help you today? *" name="message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" value="send" class="btn btn-xl">Send Message</button>
+                  </div>
+              </form>
+              </div>
+            </div>
+          </div>
+      </section>
 
 
   <footer>
@@ -380,7 +379,9 @@
 
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
+  <!--
   <script src="js/contact_me.js"></script>
+-->
 
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>

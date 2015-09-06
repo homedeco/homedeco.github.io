@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
-    
+
 }
 
 .text-muted {
@@ -376,6 +376,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 20px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -878,4 +879,12 @@ body {
 
 .terms{
   background-color: #90CAF9;
+}
+
+.portimgs {
+  border-radius: 20px;
+}
+
+.paddingproper {
+  padding: 70px;
 }
